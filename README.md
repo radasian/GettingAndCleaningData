@@ -1,15 +1,16 @@
----
-title: "README file for Getting and Cleaning Data - Programming assignment"
-author: "Radasian"
-date: "Sunday, January 18, 2015"
-output: html_document
----
+# README file for Getting and Cleaning Data - Programming assignment #
 
----
+## Author: Radasian
+Date: Sunday, January 18, 2015
+##  
 
 ## Summary
 The code in file *run_analysis.R* is used to tidy a data set which in its original form is spread across a number of files, is split into test and train data subsets, has numeric identifiers for its dimensions (Subject and Activity) and cryptic names for the 
 measurement variables.  
+
+The code in file *DownloadAndUnzip.R* can be run prior to running run_analysis.R should you wish to obtain the data from the internet source and extract it to a folder.
+
+*CodeBook.md* contains a brief description of the variables output by the script.
 
 High-level steps used are:
 
